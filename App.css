@@ -1,0 +1,565 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Nav {
+  box-shadow: 0 0 8px 0 #888888;
+}
+
+.navebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 20px 50px;
+  background-color: rgb(215, 235, 229);
+  color: rgba(100, 10, 50, 1.6);
+  border-radius: 20px;
+}
+
+.logo a {
+  cursor: pointer;
+  padding: 15px 10px;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.links {
+  margin: 0 50px;
+}
+
+.links a {
+  font-size: 1.6rem;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* LoginPage */
+
+.login_page {
+  margin: auto;
+  width: 800px;
+  background-color: transparent;
+  text-align: center;
+  top: 30%;
+  transform: translateY(30%);
+}
+
+.login_page:hover {
+  box-shadow: 2px 8px 8px 2px #888888;
+}
+
+.login_page h1 {
+  padding: 50px 0;
+  font-size: 4rem;
+}
+
+.login_page label {
+  font-size: 30px;
+  bottom: 10px;
+}
+
+.login_page input {
+  width: 300px;
+  height: 40px;
+  margin: 10px 0;
+  border: 1px solid black;
+  outline: none;
+  font-size: 20px;
+  padding: 2px 10px;
+}
+
+.login_page button {
+  font-size: 2rem;
+  width: 8rem;
+  height: 3.5rem;
+  background-color: #ec445a;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  margin: 50px 0;
+  color: #ffff;
+}
+
+.signin_header h1 {
+  font-size: 2rem;
+}
+
+/* Signup page */
+
+.signup_view {
+  margin: auto;
+  width: 800px;
+  background-color: transparent;
+  text-align: center;
+  top: 10%;
+  transform: translateY(10%);
+}
+
+.mb-3 {
+  margin-top: 20px;
+}
+
+.mb-3 label {
+  font-size: 25px;
+  margin: 5px 0;
+}
+
+.mb-3 input {
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  border: 1px solid black;
+  outline: none;
+  font-size: 20px;
+  padding: 2px 10px;
+}
+
+.d-grid button {
+  font-size: 2rem;
+  width: 11rem;
+  height: 3.5rem;
+  background-color: #db2a42;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.signup_view p {
+  font-size: 20px;
+}
+/* Home screen view */
+
+.home_screen {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.left_side {
+  width: 500px;
+  margin-right: 200px;
+}
+
+.left_side h1 {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.left_side p {
+  font-size: 1.2rem;
+  font-family: monospace;
+  line-height: 30px;
+}
+
+.right_side img {
+  width: 700px;
+}
+
+.Dashboard {
+  width: 100%;
+  height: 70vh;
+  box-shadow: 0 8px 8px 0 #888888;
+  margin-top: 2px;
+}
+
+.dashbord_view {
+  display: flex;
+}
+
+.dashboard_menu {
+  width: 400px;
+}
+
+.logo2 {
+  margin: 0px 100px;
+  color: rgba(100, 10, 50, 1.6);
+  border-radius: 20px;
+  width: 300px;
+  padding-top: 50px;
+}
+
+.logo2 h1 {
+  text-align: center;
+  width: 200px;
+  font-size: 3rem;
+}
+
+.logo2 h4 {
+  text-align: center;
+  width: 200px;
+  margin: 10px 0;
+  color: black;
+}
+.quickbook_menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 40px 0;
+  justify-content: center;
+}
+
+.quickbook_menu a {
+  font-size: large;
+  list-style: none;
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  margin: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.dashboard_home {
+  background-color: aliceblue;
+  width: 100%;
+  height: 70vh;
+}
+
+.dashboard_home_bg img {
+  width: 100%;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.Invoices {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.display_style {
+  margin: 30px 150px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+  background-color: red;
+}
+
+.invoice {
+  margin: 30px 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 1.7rem;
+  background-color: rgb(118, 230, 220);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.invoice_view {
+  display: flex;
+}
+
+.Invoices {
+  width: 100%;
+  height: 70vh;
+  box-shadow: 0 8px 8px 0 #888888;
+  margin-top: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.invoice a {
+  font-size: 1.2rem;
+  outline: none;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  margin: 20px 0;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.companies_view {
+  display: flex;
+}
+
+.Companies {
+  width: 100%;
+  height: 70vh;
+  box-shadow: 0 8px 8px 0 #888888;
+  margin-top: 2px;
+}
+
+.company {
+  margin: 30px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.company a {
+  font-size: 1.4rem;
+  outline: none;
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  margin: 20px 0;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.company a span {
+  align-items: center;
+  font-size: 1.4rem;
+  margin-top: 15px;
+}
+
+.companies_list h1 {
+  font-size: 3rem;
+  margin: 30px 50px;
+}
+
+.form_details {
+  display: flex;
+  width: 500px;
+  margin: 20px auto;
+  flex-direction: column;
+}
+
+.form_details h3 {
+  font-size: 3rem;
+  margin: 20px auto;
+}
+.form_logo {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+.form_logo input {
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+  width: 200px;
+}
+
+.lable {
+  font-size: 1.3rem;
+  margin: 10px auto;
+}
+
+.input_area {
+  font-size: 1rem;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 2.5rem;
+  padding: 10px;
+}
+
+.form_details button {
+  font-size: 2rem;
+  background-color: rgb(177, 177, 157);
+  width: 150px;
+  margin: 10px auto;
+}
+
+/* invoiceForm */
+
+.Invoiceform {
+  width: 100%;
+  height: 100vh;
+}
+
+.block {
+  display: none;
+}
+
+.invoice_details {
+  display: flex;
+  width: 1000px;
+  margin: 20px auto;
+  flex-direction: column;
+
+  padding: 20px;
+}
+
+.invoice_details h3 {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #00a1b6;
+  width: 10rem;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+color: white;
+}
+
+.invoice_details h5 {
+  font-size: 1.8rem;
+  cursor: pointer;
+  width: 20rem;
+  padding: 10px;
+}
+
+.invoice_details Button {
+  font-size: 1.4rem;
+  padding-top: 15px;
+  cursor: pointer;  
+  bottom: 0;
+  text-align: left;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.list_item {
+  margin: 20px 0;
+}
+
+.invoice_form select {
+  text-align: center;
+}
+
+.select_tag {
+  width: 200px;
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+.list_item h3 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #db2a42;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 3rem;
+  position: relative;
+  background-color: white;
+}
+
+.list_item h3 span svg {
+  font-size: 40px;
+}
+
+.invoice_form {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.invoice_form input {
+  width: 300px;
+  height: 3rem;
+  margin: 10px auto;
+  padding: 0 20px;
+  font-size: 1.4rem;
+  border-radius: 5px;
+}
+
+.invoice_form button {
+  font-size: 1.7rem;
+  background-color: rgb(174, 185, 184);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  width: 10rem;
+  margin: auto;
+}
+
+.buttons {
+  text-align: center;
+}
+.buttons button {
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.btnupdate{
+  margin: 10px 5px;
+  text-align: center;
+}
+
+.list_data {
+  margin: 50px auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item_detail {
+  display: flex;
+}
+.display_item {
+  margin: 10px 5px;
+  width: 200px;
+  text-align: center;
+  color: black;
+}
+
+.display_item label {
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.display_item p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.delet_btn {
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-size: 22px;
+  color: white;
+  margin: 5px;
+}
+
+.edit_btn {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  font-size: 22px;
+  color: white;
+  margin: 5px;
+}
+
+.signuo_botm p {
+  font-size: 20px;
+  color: #888888;
+  padding-bottom: 20px;
+}
+
+.signuo_botm p span {
+  font-size: 25px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
